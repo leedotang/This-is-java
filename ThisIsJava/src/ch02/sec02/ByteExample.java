@@ -9,14 +9,14 @@ public class ByteExample {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		byte var6 = 128;
+//		byte var6 = 128; 에러뜨지롱
 		
 		System.out.println("var1: " + var1);
 		System.out.println("var2: " + var2);
 		System.out.println("var3: " + var3);
 		System.out.println("var4: " + var4);
 		System.out.println("var5: " + var5);
-		System.out.println("var6: " + var6);
+//		System.out.println("var6: " + var6);
 	}
 
 }
