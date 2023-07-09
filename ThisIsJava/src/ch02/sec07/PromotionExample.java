@@ -24,7 +24,12 @@ public class PromotionExample {
 		
 		longValue = 100;
 		float floatValue = longValue;
-		System.out.println("floatValue: " + longValue);
+		System.out.println("floatValue: " + floatValue);
+		System.out.println("=======================");
+		
+		floatValue = 100.5F;
+		double doubleValue = floatValue;
+		System.out.println("doubleValue: " + doubleValue);
 		
 		
 		
