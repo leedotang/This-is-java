@@ -15,13 +15,13 @@ public class IfNestedExample {
 			} else {
 				grade = "A";
 			} 
+		} else {
+			if (score >= 85) {
+				grade = "B+";
 			} else {
-				if (score >= 85) {
-					grade = "B+";
-				} else {
-					grade = "B";
-				}
+				grade = "B";
 			}
+		}
 			System.out.println("학점: + " + grade);
 	}
 }
